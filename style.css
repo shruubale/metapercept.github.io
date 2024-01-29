@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+
+}
+
+.header h3{
+    font-weight: 300;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(63, 63, 63)
+}
+
+li button{
+    color: lightblue;
+    border-color: lightblue;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.title{
+    background: linear-gradient(to right,lightblue , rgb(86, 86, 249),purple);
+    height: 300px;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 30px;
+}
+
+.title h1{
+    color: white;
+    font-weight: lighter;
+}
+.title p{
+    font-size: 20px;
+    color: white;
+}
+.title button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(56, 56, 56);
+}
+
+.classes{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.classes-cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 30%;
+    margin: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px lightgray;
+}
+.card img{
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.card p{
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card button{
+    background: transparent;
+    color: grey;
+    border-color: gray;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px;
+}
